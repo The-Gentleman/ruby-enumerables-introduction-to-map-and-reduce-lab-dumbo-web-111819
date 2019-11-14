@@ -40,15 +40,16 @@ source_array.inject {|total, n| total + n} + starting_point
 end 
 
 def reduce_to_all_true(source_array)
+counter = 0 
 
-source_array.each do |n|
-if n === false 
- return false 
+while counter < source_array.size do 
+ return false if source_array[counter]
 
+ counter += 1 
 end 
 return true 
 end 
-end 
+
 
 def reduce_to_any_true(source_array)
 
