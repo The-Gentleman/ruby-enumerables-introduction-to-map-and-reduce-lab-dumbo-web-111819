@@ -50,8 +50,9 @@ if source_array[counter] = false
 counter += 1 
 
 end 
-return true 
+
 end
+return true 
 end 
 
 
