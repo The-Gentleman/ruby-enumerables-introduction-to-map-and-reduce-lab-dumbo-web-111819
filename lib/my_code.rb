@@ -40,6 +40,7 @@ source_array.inject {|total, n| total + n} + starting_point
 end 
 
 def reduce_to_all_true(source_array)
+counter = 0 
 
 
 
