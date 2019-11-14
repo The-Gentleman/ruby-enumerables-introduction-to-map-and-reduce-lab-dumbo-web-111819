@@ -44,7 +44,7 @@ counter = 0
 
 while counter < source_array.size do 
 
-if source_array[counter] == false  
+if source_array[counter] === false  
 return false 
 counter += 1 
 
