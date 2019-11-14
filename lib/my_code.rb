@@ -49,6 +49,7 @@ counter += 1
 end 
 return true 
 end
+end 
 
 def reduce_to_any_true(source_array)
 
